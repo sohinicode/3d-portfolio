@@ -30,7 +30,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "https://github.com/your-username/3d-portfolio",
+    link: "https://github.com/sohinicode/3d-portfolio",
   },
 ] as const;
 

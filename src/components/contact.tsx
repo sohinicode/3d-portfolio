@@ -98,7 +98,7 @@ export const Contact = () => {
         import.meta.env.VITE_APP_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Shubham",
+          to_name: "Sohini",
           from_email: form.email.trim().toLowerCase(),
           to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
           message: form.message,
@@ -191,7 +191,7 @@ export const Contact = () => {
                 id="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Hello there!"
+                placeholder="Write at least 5 words about your project or work inquiry..."
                 title="What do you want to say?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -200,7 +200,7 @@ export const Contact = () => {
 
               {/* Invalid Message */}
               <span className="text-red-400 mt-2 hidden" id="message-error">
-                Invalid Message!
+                Please enter at least 5 meaningful words in Your Message section.!
               </span>
             </label>
 

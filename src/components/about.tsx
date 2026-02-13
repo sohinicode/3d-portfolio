@@ -54,11 +54,11 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I’m a freelance frontend and full-stack web developer focused on building modern,
+          responsive, and user-friendly web applications. With strong skills in HTML, CSS, 
+          JavaScript, React, and Firebase, I create scalable digital solutions with real-time 
+          features and clean, efficient design. I enjoy turning ideas into practical products 
+          and delivering reliable, high-quality work through clear communication and continuous learning.
         </motion.p>
 
         {/* Service Card */}
